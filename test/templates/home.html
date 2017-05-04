@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1 style="font-style:italic">首页,{{dict['name']}}</h1>
+{% for i,value in newlist %}
+<li><a href = '/page/{{i}}'>{{value}}</a></li>
+{% endfor %}
+</body>
+</html>
+
